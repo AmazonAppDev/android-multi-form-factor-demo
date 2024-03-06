@@ -1,7 +1,7 @@
 # Android WSA Demo for Windows 11
 _Learn how to launch an app for the Windows Subsystem for Android™️_
 
-<img src="https://github.com/giolaq/AADevs/blob/main/gifs/aadevsui.gif" width="640" height="336" />
+<img src="https://github.com/AmazonAppDev/android-wsa-demo/blob/main/gifs/aadevsui.gif" width="640" height="336" />
 
 [Windows Subsystem for Android™️](https://learn.microsoft.com/en-us/windows/android/wsa/) enables your Windows 11 device to run Android applications that are available in the [Amazon Appstore](https://developer.amazon.com/apps-and-games/appstore-on-windows-11).
 
@@ -32,7 +32,7 @@ Key features include showing how to:
 
 1. Clone the following repository:
 
-`git clone git@github.com:giolaq/android-wsa-demo.git`
+`git clone git@github.com:AmazonAppDev/android-wsa-demo.git`
 
 2. Create a [Google Cloud API key](https://cloud.google.com/docs/authentication/api-keys?hl=en&visit_id=638007358010576297-2547601963&rd=1#creating-browser-api-keys) for the YoutubeParser feed retrieval
 3. Put your Browser API Key in your local.properties file in the root of your project
