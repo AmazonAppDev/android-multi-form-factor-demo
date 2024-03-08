@@ -1,3 +1,7 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
+
+
 package com.amazon.appstore.aadevs.ui.video
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
