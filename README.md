@@ -1,5 +1,6 @@
 # 📱💻🖥️ Adaptive Android App Demo
 
+[![Android build](https://github.com/AmazonAppDev/android-multi-form-factor-demo/actions/workflows/android.yml/badge.svg)](https://github.com/AmazonAppDev/android-multi-form-factor-demo/actions/workflows/android.yml)
 [![License](https://img.shields.io/badge/License-MIT0-green)](LICENSE)
 
 This project is a sample Android app that showcases best practices when optimizing for different form factors, such as phones, tablets, and desktop devices. It demonstrates how to create adaptive layouts and handle various input methods to provide a seamless user experience across different screen sizes and device capabilities. 📐🎨
