@@ -1,78 +1,68 @@
-# Android WSA Demo for Windows 11
-_Learn how to launch an app for the Windows Subsystem for Android™️_
+# 📱💻🖥️ Adaptive Android App Demo
 
-<img src="https://github.com/AmazonAppDev/android-wsa-demo/blob/main/gifs/aadevsui.gif" width="640" height="336" />
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[Windows Subsystem for Android™️](https://learn.microsoft.com/en-us/windows/android/wsa/) enables your Windows 11 device to run Android applications that are available in the [Amazon Appstore](https://developer.amazon.com/apps-and-games/appstore-on-windows-11).
-
-This project is a sample Android App to showcase best practices when optimizing for [Windows Subsystem for Android](https://learn.microsoft.com/en-us/windows/android/wsa/).
-
-## Prerequisites
-
-To run this project, you will need the following:
-- Windows 11
-- Windows Subsystem for Android™️ (WSA) installed
-
-To set up your development environment with WSA you can follow the instructions here:
-
-[WSA Development Environment Setup](https://learn.microsoft.com/en-us/windows/android/wsa/#set-up-your-development-environment)
+This project is a sample Android app that showcases best practices when optimizing for different form factors, such as phones, tablets, and desktop devices. It demonstrates how to create adaptive layouts and handle various input methods to provide a seamless user experience across different screen sizes and device capabilities. 📐🎨
 
 ## ✅ Features
 
-The project retrieves the first 20 Videos of our [Amazon Appstore Developers Youtube Channel](https://www.youtube.com/c/AmazonAppstoreDevelopers). Thanks to @prof18 for building the Open Source library [YoutubeParser](https://github.com/prof18/YoutubeParser).
+The app retrieves the first 20 videos from the Amazon Appstore Developers YouTube Channel using the open-source library [YoutubeParser](https://github.com/prof18/YoutubeParser) by @prof18. 🙌
 
-Key features include showing how to:
-- Implement [adaptive layouts](https://developer.android.com/jetpack/compose/layouts/adaptive) using [Jetpack Compose](https://developer.android.com/jetpack/compose) for responsive UI and window resizing
-- Handle mouse events such as hover and right click
-- Handle special keyboard events such as `(CTRL-<Key>)`
-- Launch Android notifications on Windows 11
-- Check availability of hardware features and capabilities
+Key features include:
 
-## 💻 Building the Android WSA demo
+- Implementing adaptive layouts using Jetpack Compose for responsive UI and window resizing 🌈
+- Handling mouse events such as hover and right click 🖱️
+- Handling special keyboard events such as `(CTRL-<Key>)` ⌨️
+- Launching Android notifications on different devices 🔔
+- Checking availability of hardware features and capabilities 🔍
 
-1. Clone the following repository:
+## 📋 Prerequisites
 
-`git clone git@github.com:AmazonAppDev/android-wsa-demo.git`
+To run this project, you will need the following:
 
-2. Create a [Google Cloud API key](https://cloud.google.com/docs/authentication/api-keys?hl=en&visit_id=638007358010576297-2547601963&rd=1#creating-browser-api-keys) for the YoutubeParser feed retrieval
-3. Put your Browser API Key in your local.properties file in the root of your project
+- [Android Studio](https://developer.android.com/studio) 🛠️
+- An Android device or emulator running Android 5.0 (API level 21) or higher 📱
 
-```
+## 💻 Building the Adaptive Android App Demo
 
-google_cloud_api_key="Your Google Cloud API Key"
+1. Clone the repository:
+   ```
+   git clone https://github.com/AmazonAppDev/adaptive-android-app-demo.git
+   ```
 
-```
+2. Create a Google Cloud API key for the YoutubeParser feed retrieval. 🔑
 
-4. Open this project with Android Studio
-5. Start WSA opening the Amazon Appstore
-6. Connect WSA with Android Studio executing the following command in a terminal:
-```
-   adb connect 127.0.0.1:58526
-```
-6. Run the app
+3. Add your Browser API Key to the `local.properties` file in the root of your project:
+   ```
+   google_cloud_api_key="Your Google Cloud API Key"
+   ```
 
-For more info about how to test your Android app with WSA you can follow the instructions here:
+4. Open the project in Android Studio. 🌟
 
-[![Video screenshot for Testing your App on Windows 11](https://img.youtube.com/vi/z_ehadkRyzY/0.jpg)](https://www.youtube.com/watch?v=z_ehadkRyzY)
+5. Run the app on your Android device or emulator. ▶️
 
+## 📈 Using the Sample App
 
-## Using the Sample App
+Resize the app window on devices with larger screens to see how the layout adapts to different dimensions. In the Notifications section, you can launch a test notification to see how it integrates with the device's notification system. 🪟🔔
 
-On Windows 11 you can resize the window of the app and see how it reacts to the dimensions changes.
-If you go to the Notifications section, you can launch a test notification to see how they are integrated into the Windows 11 notification system
+## 💬 Get Support
 
-<img src="https://github.com/amazonappdev/AADevs/blob/main/gifs/notifications.gif" width="640" height="484" />
+If you encounter a bug or want to suggest a new feature, please [file an issue](https://github.com/AmazonAppDev/adaptive-android-app-demo/issues). 🐛💡
 
-## Get support
+If you have questions, comments, or need help with the code, we're here to assist you:
 
-If you found a bug or want to suggest a new [feature/use case/sample], please [file an issue](../../issues).
+- Tweet at us on Twitter [@AmazonAppDev](https://twitter.com/AmazonAppDev) 🐦
+- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/amazon-appstore) using the `amazon-appstore` tag 📚
 
-If you have questions, comments, or need help with code, we're here to help:
-- on Twitter at [@AmazonAppDev](https://twitter.com/AmazonAppDev)
-- on Stack Overflow at the [amazon-appstore](https://stackoverflow.com/questions/tagged/amazon-appstore) tag
+Don't forget to sign up for the [developer newsletter](https://developer.amazon.com/developer-news-and-updates) to stay updated with the latest news and resources! 📧
 
-Sign up to [stay updated with the developer newsletter](https://m.amazonappservices.com/subscribe-newsletter).
+## 👥 Authors
 
-## Authors
+- [@giolaq](https://github.com/giolaq)
 
-- [@giolaq](https://twitter.com/giolaq)
+## 📄 License
+
+This project is licensed under the [MIT-0 License](LICENSE).
+---
+
+We hope this sample app helps you create amazing adaptive Android experiences! 🚀✨
