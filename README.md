@@ -27,7 +27,7 @@ To run this project, you will need the following:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/AmazonAppDev/adaptive-android-app-demo.git
+   git clone https://github.com/AmazonAppDev/android-multi-form-factor-demo.git
    ```
 
 2. Create a Google Cloud API key for the YoutubeParser feed retrieval. 🔑
@@ -47,7 +47,7 @@ Resize the app window on devices with larger screens to see how the layout adapt
 
 ## 💬 Get Support
 
-If you encounter a bug or want to suggest a new feature, please [file an issue](https://github.com/AmazonAppDev/adaptive-android-app-demo/issues). 🐛💡
+If you encounter a bug or want to suggest a new feature, please [file an issue](https://github.com/AmazonAppDev/android-multi-form-factor-demo/issues). 🐛💡
 
 If you have questions, comments, or need help with the code, we're here to assist you:
 
