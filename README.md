@@ -63,6 +63,7 @@ Don't forget to sign up for the [developer newsletter](https://developer.amazon.
 ## 📄 License
 
 This project is licensed under the [MIT-0 License](LICENSE).
+
 ---
 
 We hope this sample app helps you create amazing adaptive Android experiences! 🚀✨
