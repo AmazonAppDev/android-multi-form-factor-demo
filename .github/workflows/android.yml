@@ -23,6 +23,6 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Update Username from Secrets
-      run: echo google_cloud_api_key="Your API KEY" > ./local.properties
+      run: echo google_cloud_api_key=\"Your API KEY\" > ./local.properties
     - name: Build with Gradle
       run: ./gradlew build
