@@ -1,6 +1,6 @@
 # 📱💻🖥️ Adaptive Android App Demo
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-MIT0-green)](LICENSE)
 
 This project is a sample Android app that showcases best practices when optimizing for different form factors, such as phones, tablets, and desktop devices. It demonstrates how to create adaptive layouts and handle various input methods to provide a seamless user experience across different screen sizes and device capabilities. 📐🎨
 
