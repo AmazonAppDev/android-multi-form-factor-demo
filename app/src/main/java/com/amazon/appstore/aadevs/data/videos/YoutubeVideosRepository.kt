@@ -37,6 +37,6 @@ class YoutubeVideosRepository : VideosRepository {
     }
 
     companion object {
-        const val gcloud_api_key = BuildConfig.GOOGLE_CLOUD_API_KEY
+        val gcloud_api_key = BuildConfig.GOOGLE_CLOUD_API_KEY
     }
 }
